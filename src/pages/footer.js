@@ -20,7 +20,7 @@ export const Footer = () => {
                                 <ul>
                                     <li><a href="https://www.facebook.com/learnbuildteach/"><i className="fa fa-facebook"></i></a></li>
                                     <li><a href="https://www.twitter.com/jamesqquick"><i className="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i className="fa fa-google-plus"></i></a></li>
                                     {/* <li><a href="#"><i className="fa fa-watsapp">
                                         <ReactWhatsapp number="+" message="Hello World!!!" element="button" />
                                         </i></a></li> */}

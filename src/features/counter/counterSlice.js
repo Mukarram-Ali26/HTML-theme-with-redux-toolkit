@@ -25,7 +25,7 @@ export const counterSlice = createSlice({
     },
     lawn: state => {
       state.currentValue = state.value.filter(function (obj) {
-        if (obj.cat == "lawn") {
+        if (obj.cat === "lawn") {
           console.log(obj)
           return obj
         }
@@ -34,14 +34,14 @@ export const counterSlice = createSlice({
     },
     planting: state => {
       state.currentValue = state.value.filter(function (obj) {
-        if (obj.cat == "planting") {
+        if (obj.cat === "planting") {
           return obj
         }
       })
     },
     garden: state => {
       state.currentValue = state.value.filter(function (obj) {
-        if (obj.cat == "garden") {
+        if (obj.cat === "garden") {
           return obj
         }
       })

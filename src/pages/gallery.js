@@ -5,7 +5,6 @@ import {
     planting,
     garden,
     init,
-    all,
     selectCount,
 } from '../features/counter/counterSlice';
 
